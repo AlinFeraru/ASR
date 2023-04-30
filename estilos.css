@@ -1,0 +1,156 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.index{
+	background-color: rgb(21, 114, 161);
+	font-family: Comic Sans MS;
+}
+
+.hobby{
+	background-color: rgb(21, 114, 161);
+	font-family: Comic Sans MS;
+}
+
+.ff{
+	background-color: rgb(21, 114, 161);
+	font-family: Comic Sans MS;
+}
+
+h0{
+	color: white;
+	font-family: Comic Sans MS;
+	font-size: 3vh;
+	font-weight: bold;
+}
+
+h0a{
+	color: rgb(17, 50, 77);
+	font-family: Comic Sans MS;
+	font-size: 3vh;
+	font-weight: bold;
+	padding-top: 2px;
+}
+
+h1{
+	text-align: center;
+	color: rgb(17, 50, 77);
+	font-size: 5vh;
+	animation: fadeIn 2s;
+	text-shadow: 1px 1px 2px rgb(21, 114, 161), 0 0 1em white, 0 0 0.2em rgb(239, 218, 215);
+}
+
+h2{
+	color: rgb(21, 114, 161);
+	animation: fadeIn 1s;
+	font-size: 4vh;
+	background-color: rgb(255, 255, 255, 0.5);
+	padding: 2vh;
+	border-radius: 50px;
+}
+
+.banner{
+	width:100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	border-bottom: 1px 2px 4px black;
+}
+
+.menu{
+	margin: 0 auto;
+	width: 80%;
+	height: 8vh;
+	text-align: center;
+	display: flex;
+	align-items: center; 
+    justify-content: center;
+}
+
+.botonactual{
+	padding:2px;
+	float: left;
+	margin: 0 auto;
+	width: 33%;
+	background-color: rgb(187, 187, 187);
+	border-radius: 10vh;
+}
+
+.botonotro{
+	background-color: rgb(21, 114, 161);
+	padding: 2px;
+	float: left;
+	margin: 0 auto;
+	width: 33%;
+	color: #DCD6F7;
+	border-radius: 10vh;
+	border: 2px solid rgb(187, 187, 187);
+	box-shadow: 1px 1px black;
+}
+
+a{
+	text-decoration: none;
+}
+
+.buffer{
+	min-height: 13vh;
+}
+.contenedorprincipal{
+	padding-left: 5vw;
+}
+
+.contenido{
+	float: left;
+	width: 90vw;
+	margin-bottom:1vh;
+	display: flex;
+	justify-content: center;
+	border-radius: 50px;
+	background-color: rgb(154, 208, 236, 0.5);
+}
+
+.contenedorfoto{
+	float: left;
+	margin: 1vh;
+}
+
+.foto{
+	border-radius: 50px;
+	width: 25vw;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 50% 20% / 10% 40%;
+	box-shadow: 1px 1px 4px black;
+	border: 5px solid rgb(187, 187, 187);
+}
+
+.fotoF{
+	width: auto;
+	height:8vh;
+	object-fit: cover;
+	border-radius: 20px;
+	margin: 20px;
+}
+
+
+.texto{
+	float: left;
+	margin: 20px;
+	text-align: justify;
+	max-width: 50vw;
+}
+
+.linea{
+	width: 40vw;
+	height: 20px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
